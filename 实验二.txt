@@ -10,7 +10,7 @@ void loop() {
     comdata += char(Serial.read());
     delay(2);
   }
-  if (comdata.length() > 0 && comdata == "I am XXX"){
+  if (comdata.length() > 0 && comdata == "I am 孤独的根号三"){
       Serial.println(comdata);
       Serial.println("OK");
   }
